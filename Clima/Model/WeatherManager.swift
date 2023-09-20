@@ -10,7 +10,7 @@ import Foundation
 import CoreLocation
 
 struct WeatherManager {
-    let weatherURL = "https://pro.openweathermap.org/data/2.5/weather?&units=metric&appid=796462b197e608786bb7e39f38e1e989"
+    let weatherURL = "https://pro.openweathermap.org/data/2.5/weather?&units=metric&appid="
    
     var delegate: WeatherManagerDelegate?
     
